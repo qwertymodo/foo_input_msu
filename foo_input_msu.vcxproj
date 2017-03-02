@@ -179,9 +179,6 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="input_msu.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
