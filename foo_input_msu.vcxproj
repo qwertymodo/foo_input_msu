@@ -98,7 +98,7 @@
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
+      <Command>if exist "$(SolutionDir)foobar2000\components" copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copy output to foobar2000 components folder</Message>
@@ -120,7 +120,7 @@
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
+      <Command>if exist "$(SolutionDir)foobar2000\components" copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copy output to foobar2000 components folder</Message>
@@ -146,7 +146,7 @@
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
+      <Command>if exist "$(SolutionDir)foobar2000\components" copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copy output to foobar2000 components folder</Message>
@@ -172,7 +172,7 @@
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
+      <Command>if exist "$(SolutionDir)foobar2000\components" copy "$(TargetPath)" "$(SolutionDir)foobar2000\components"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copy output to foobar2000 components folder</Message>
